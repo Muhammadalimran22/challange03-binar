@@ -342,12 +342,13 @@ const TodoList = () => {
               <h3 className=""></h3>
               <Card>
                 <Card.Body>
-                  <h3 className="text-center">TODO SEARCH</h3>
+                  <h3 className="text-center">TODO INPUT</h3>
                   <Row>
                     <Col>
                       <input
                         className="w-100"
                         type="text"
+                        placeholder="Edit/Input"
                         value={inputTask}
                         onChange={(e) => setInputTask(e.target.value)}
                       />
